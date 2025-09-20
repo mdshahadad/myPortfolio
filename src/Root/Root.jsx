@@ -2,10 +2,16 @@ import { Outlet } from "react-router";
 import Navbar from "../Components/Shared/Navigation/Navbar";
 
 const Root = () => {
+  /*
+  #1B1B1B : gray black
+  #FFCA09 : Yellow
+  #FFDD00 : Yellow
+
+  */
   return (
-    <div className="bg-gradient-to-r from-[#2450A9] via-[#587DCE] to-[#2450A9] h-screen">
-      <div className="max-w-7xl mx-auto">
-        <Navbar></Navbar>
+    <div className="bg-[#F9FAFB] h-screen">
+      <div className="">
+        {/* <Navbar></Navbar> */}
         <Outlet></Outlet>
       </div>
     </div>
