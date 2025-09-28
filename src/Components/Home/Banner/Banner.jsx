@@ -5,7 +5,7 @@ import { FaPaperPlane } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col justify-center items-center max-w-7xl mx-auto select-none h-[86vh] text-gray-500">
+    <div className="flex flex-col justify-center items-center max-w-7xl mx-auto select-none h-[81vh] text-gray-500">
       <div className="relative w-full">
         <div>
           <h3 className="text-4xl text-center font-medium lowercase">
@@ -35,7 +35,7 @@ const Banner = () => {
                 <button className="px-14 py-5 bg-white rounded-xl text-gray-900 z-50 border-2 border-gray-900 cursor-pointer hover:underline">
                   <span className="flex items-center gap-2">
                     <FaPaperPlane className="text-2xl animate-bounce" />
-                    Build your website
+                    You need a developer
                   </span>
                 </button>
               </NavLink>
