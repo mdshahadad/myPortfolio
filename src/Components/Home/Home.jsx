@@ -1,18 +1,11 @@
-import banner from "../../assets/banner/homeBanner.JPG";
 import Navbar from "../Shared/Navigation/Navbar";
+import Banner from "./Banner/Banner";
 
 const Home = () => {
   return (
-    <div
-      className="h-screen relative"
-      style={{
-        backgroundImage: `linear-gradient(#fff9, #c8c8ff99), url(${banner})`,
-        backgroundAttachment: "fixed",
-        backgroundPosition: "fixed",
-      }}
-    >
-      <div className="absolute"></div>
+    <div className="h-screen relative bg-[#fff]">
       <Navbar></Navbar>
+      <Banner></Banner>
     </div>
   );
 };
