@@ -3,7 +3,7 @@ import Banner from "./Banner/Banner";
 
 const Home = () => {
   return (
-    <div className="h-screen relative bg-[#fff]">
+    <div className="relative bg-[#fff]">
       <Navbar></Navbar>
       <Banner></Banner>
     </div>

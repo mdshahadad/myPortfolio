@@ -18,12 +18,12 @@ const Banner = () => {
         </div>
         <div className="flex justify-center">
           <img src={myImg} className="scale-150 z-0" alt="Personal Image" />
-          <div className="absolute inset-0 blur-3xl w-full bg-white/30 -bottom-28 mt-96 z-10"></div>
+          <div className="absolute inset-0 blur-3xl w-full bg-white/30 -bottom-36 mt-96 z-10"></div>
         </div>
         <div className="flex flex-row justify-center">
           <div className="z-20 absolute bottom-0">
             <div className="flex gap-5 text-lg">
-              <NavLink to={"/projects"}>
+              <NavLink to={"/project"}>
                 <button className="px-14 py-5 bg-gray-800 rounded-xl text-white z-50 cursor-pointer hover:underline border-2 border-gray-800">
                   <span className="flex items-center gap-2">
                     <PiFilesFill className="text-3xl animate-bounce" />
@@ -35,7 +35,7 @@ const Banner = () => {
                 <button className="px-14 py-5 bg-white rounded-xl text-gray-900 z-50 border-2 border-gray-900 cursor-pointer hover:underline">
                   <span className="flex items-center gap-2">
                     <FaPaperPlane className="text-2xl animate-bounce" />
-                    You need a developer
+                    Start a project together
                   </span>
                 </button>
               </NavLink>

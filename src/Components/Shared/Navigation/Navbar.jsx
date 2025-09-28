@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
         <div className="lg:w-10/12 text-left">
           <ul className="flex items-center justify-end gap-16 text-xl font-medium ">
-            <NavLink to={"/home"}>
+            <NavLink to={"/"}>
               <li className="hover:text-gray-800 cursor-pointer font-extrabold text-gray-500">
                 Home
               </li>

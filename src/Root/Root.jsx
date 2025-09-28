@@ -9,7 +9,7 @@ const Root = () => {
 
   */
   return (
-    <div className="bg-[#F9FAFB] h-screen">
+    <div className="bg-[#F9FAFB] h-fit">
       <div className="">
         {/* <Navbar></Navbar> */}
         <Outlet></Outlet>
