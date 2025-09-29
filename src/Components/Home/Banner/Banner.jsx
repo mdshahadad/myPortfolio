@@ -35,7 +35,7 @@ const Banner = () => {
                 <button className="px-14 py-5 bg-white rounded-xl text-gray-900 z-50 border-2 border-gray-900 cursor-pointer hover:underline">
                   <span className="flex items-center gap-2">
                     <FaPaperPlane className="text-2xl animate-bounce" />
-                    Start a project together
+                    Start a project
                   </span>
                 </button>
               </NavLink>

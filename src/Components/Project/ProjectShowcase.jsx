@@ -1,5 +1,7 @@
 import { RxGlobe } from "react-icons/rx";
 import projectOne from "../../assets/banner/projectImgOne.jpg";
+import projectTwo from "../../assets/banner/projectTwo.jpg";
+import projectThree from "../../assets/banner/projectThree.jpg";
 import { PiFilesFill } from "react-icons/pi";
 import { NavLink } from "react-router";
 
@@ -25,44 +27,37 @@ const ProjectShowcase = () => {
     },
     {
       id: 2,
-      title: "Lead Marketing",
-      description: `Lead Marketing Inc. is a full-service marketing and
-      communications agency serving worldwide from Canada. This is the
-      global venture of Lead Bangladesh Ltd., a full-service marketing
-      agency with 10 years of experience.`,
-      image: projectOne,
+      title: "Aschii",
+      description: `Aschii is a full parcel delivery service in Bangladesh. We provide fast, secure, and reliable doorstep delivery for businesses and individuals. With real-time tracking and dedicated customer support, we make deliveries simple and stress-free.`,
+      image: projectTwo,
       technologies: [
+        "TanStack Query",
         "Javascript",
-        "React",
         "React Router",
         "Tailwind CSS",
-        "Swiper JS",
       ],
-      liveSite: "https://leadmarketingglobal.com/",
+      liveSite: "https://aschii.com/",
       projectDetails: "#",
     },
     {
       id: 3,
-      title: "Lead Marketing",
-      description: `Lead Marketing Inc. is a full-service marketing and
-      communications agency serving worldwide from Canada. This is the
-      global venture of Lead Bangladesh Ltd., a full-service marketing
-      agency with 10 years of experience.`,
-      image: projectOne,
+      title: "Guider",
+      description: `Guider connects travelers with knowledgeable local guides for personalized tours. Explore hidden gems and cultural experiences with experts who know the area best. Make every trip memorable with insider tips, stories, and seamless guidance.`,
+      image: projectThree,
       technologies: [
+        "Swiper JS",
         "Javascript",
         "React",
         "React Router",
         "Tailwind CSS",
-        "Swiper JS",
       ],
-      liveSite: "https://leadmarketingglobal.com/",
+      liveSite: "https://guider.shahadad.com/",
       projectDetails: "#",
     },
     {
       id: 4,
-      title: "Lead Marketing",
-      description: `Lead Marketing Inc. is a full-service marketing and
+      title: "Lead Bangladesh",
+      description: `Lead Bangladesh is a full-service marketing and
       communications agency serving worldwide from Canada. This is the
       global venture of Lead Bangladesh Ltd., a full-service marketing
       agency with 10 years of experience.`,
@@ -172,8 +167,8 @@ const ProjectShowcase = () => {
               </div>
 
               <div className="pt-8 flex justify-center gap-5">
-                <a
-                  href={project.liveSite}
+                <NavLink
+                  to={project.liveSite}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -183,15 +178,15 @@ const ProjectShowcase = () => {
                       Live Site
                     </span>
                   </button>
-                </a>
-                <a href={project.projectDetails}>
+                </NavLink>
+                {/* <NavLink to={project.projectDetails}>
                   <button className="text-gray-800 text-center border-2 border-gray-800 bg-white px-8 py-2 rounded-full cursor-pointer">
                     <span className="flex items-center justify-center gap-2">
                       <PiFilesFill className="text-xl" />
                       Project Details
                     </span>
                   </button>
-                </a>
+                </NavLink> */}
               </div>
             </div>
           </div>
